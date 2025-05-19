@@ -1,0 +1,101 @@
+/* Основные стили */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Шапка */
+header {
+    background: #1a1a2e;
+    color: white;
+    padding: 1rem 0;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.cta-button {
+    background: #4cc9f0;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Герой-баннер */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/bg.jpg');
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+/* Карточки курсов */
+.course-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 300px;
+    position: relative;
+}
+
+.popular {
+    border: 2px solid #4cc9f0;
+}
+
+.popular-badge {
+    background: #4cc9f0;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 0.8rem;
+}
+
+/* Скрипт для копирования реф-ссылки */
+.referral-link {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#ref-link {
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

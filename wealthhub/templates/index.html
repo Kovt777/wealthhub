@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WealthHub — Зарабатывайте знаниями</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <div class="logo">WealthHub</div>
+            <nav>
+                <a href="#courses">Курсы</a>
+                <a href="#rewards">Партнёрка</a>
+                <a href="#testimonials">Отзывы</a>
+                <button class="cta-button">Войти</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Герой-баннер -->
+    <section class="hero">
+        <div class="container">
+            <h1>Начни зарабатывать на инвестициях уже сегодня!</h1>
+            <p>Обучение + партнёрская программа = двойной доход.</p>
+            <button class="cta-button">Попробовать бесплатно</button>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">10,000+</span>
+                    <span class="stat-text">Студентов</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-text">Часов обучения</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Курсы -->
+    <section id="courses" class="courses">
+        <h2>Наши курсы</h2>
+        <div class="course-cards">
+            <div class="card">
+                <h3>Инвестиции для начинающих</h3>
+                <p class="price">$99</p>
+                <ul>
+                    <li>✓ Основы рынка</li>
+                    <li>✓ 10 уроков</li>
+                </ul>
+                <button class="buy-button">Купить</button>
+            </div>
+            <div class="card popular">
+                <span class="popular-badge">Популярный</span>
+                <h3>Криптовалюты</h3>
+                <p class="price">$199</p>
+                <ul>
+                    <li>✓ Блокчейн с нуля</li>
+                    <li>✓ 15 уроков</li>
+                </ul>
+                <button class="buy-button">Купить</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Партнёрка -->
+    <section id="rewards" class="rewards">
+        <h2>Зарабатывайте на рефералах</h2>
+        <div class="referral-levels">
+            <div class="level">
+                <h3>1 уровень</h3>
+                <p>20% с каждой продажи</p>
+            </div>
+            <div class="level">
+                <h3>2 уровень</h3>
+                <p>5% с рефералов</p>
+            </div>
+        </div>
+        <div class="referral-link">
+            <input type="text" id="ref-link" value="https://wealthhub.com/ref=123" readonly>
+            <button onclick="copyRefLink()">Копировать</button>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="testimonials" class="testimonials">
+        <h2>Истории успеха</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial">
+                <img src="../static/images/user1.jpg" alt="Фото">
+                <p>"Заработал $500 за месяц!"</p>
+                <span>— Алексей, 28 лет</span>
+            </div>
+            <div class="testimonial">
+                <img src="../static/images/user2.jpg" alt="Фото">
+                <p>"Лучшие курсы по крипте!"</p>
+                <span>— Мария, 32 года</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <p>© 2024 WealthHub. Не является инвестиционной рекомендацией.</p>
+    </footer>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
